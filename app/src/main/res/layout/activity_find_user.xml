@@ -5,19 +5,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainPageActivity2">
+    tools:context=".FindUserActivity">
 
-    <Button
-        android:id="@+id/logout"
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/userList"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
-        android:text="Logout" />
-
-    <Button
-        android:id="@+id/finduser"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
-        android:text="Find User" />
+        android:scrollbars="vertical"/>
 </LinearLayout>
